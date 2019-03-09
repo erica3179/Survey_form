@@ -1,5 +1,10 @@
 * {
+
   margin: auto;
+
+}
+#survey-form {
+  align-items: center;
 }
 #title {
   text-align: center;
