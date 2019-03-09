@@ -9,21 +9,28 @@
 <table>
   <tr>
   <!-- name -->
-    <td>*Name: </td>
-    <td><input id="name" required/></td>
+    <td><label id="name-label">*Name: </label></td>
+    <td><input id="name" placeholder="Enter your name" required/></td>
   </tr>
   <tr>
     <!-- email -->
-    <td>*Email: </td>
-    <td><input id="email" type="email" required/></td>
+    <td><label id="email-label">*Email: </label></td>
+    <td><input id="email" type="email" placeholder="Enter your email" required/></td>
   </tr>
   <tr>
     <!-- age -->
-    <td>*Age:</td>
-    <td><input type="number" id="number" min="0" max="120"required></td>
+    <td><label id="number-label">*Age: </label></td>
+    <td><input type="number" id="number" min="0" max="120" placeholder="Age" required /></td>
   </tr>
   <tr>
     <!-- current role -->
+    <td>Which option best describes your current role?</td>
+    <td><select id="dropdown">
+      <option disabled>Select an option</option>
+      <option selected="selected">Student</option>
+      <option>Full time job</option>
+      <option>Other</option>
+    </select></td>
 
   </tr>
   <tr>
