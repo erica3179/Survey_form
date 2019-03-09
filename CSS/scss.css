@@ -4,6 +4,8 @@
 }
 #survey-form {
   align-items: center;
+  align-self: center;
+  align-content: center;
 }
 #title {
   text-align: center;
