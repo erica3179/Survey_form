@@ -3,40 +3,65 @@
 
 <script src="js/jsjs.js" type="text/javascript"></script>
 <h1 id="title">Survey</h1>
-<<<<<<< HEAD
+
 <p id="description">Let us know how we can improve freeCodeCamp</p>
 <form id="survey-form">
 <table>
   <tr>
   <!-- name -->
-    <td>*Name: </td>
-    <td><input id="name" required/></td>
+    <td><label id="name-label">*Name: </label></td>
+    <td><input id="name" placeholder="Enter your name" required/></td>
   </tr>
   <tr>
     <!-- email -->
-    <td>*Email: </td>
-    <td><input id="email" type="email" required/></td>
+    <td><label id="email-label">*Email: </label></td>
+    <td><input id="email" type="email" placeholder="Enter your email" required/></td>
   </tr>
   <tr>
     <!-- age -->
+    <td><label id="number-label">*Age: </label></td>
+    <td><input type="number" id="number" min="0" max="120" placeholder="Age" required /></td>
   </tr>
   <tr>
     <!-- current role -->
+    <td>Which option best describes your current role?</td>
+    <td><select id="dropdown">
+      <option disabled>Select an option</option>
+      <option selected="selected">Student</option>
+      <option>Full time job</option>
+      <option>Other</option>
+    </select></td>
+
   </tr>
+
   <tr>
     <!-- recommend to friend -->
+    <td>How likely is that you would recommend freeCodeCamp to a friend?</td>
+    <td><input name="radio-buttons" type="radio">Definitely <br>
+        <input name="radio-buttons"type="radio">Maybe Not <br>
+        <input name="radio-buttons" type="radio">Not sure
+    </td>
   </tr>
+
   <tr>
     <!-- What do you like most in FCC? -->
   </tr>
   <tr>
+    <td>
+      Things that should be improved in the future
+    (Check all that apply):
+    </td>
+    <td>
+      <input name="font_end" value="font_end"type="checkbox">Font-end Project<br>
+      <input name="back_end" value="back_end"type="checkbox">Back End Project<br>
+      <input name="data_visualization" value="data_visualization"type="checkbox">Data Visualization<br>
+    </td>
+  </tr>
+  <tr>
     <!-- Any comments or suggestions ? -->
+
   </tr>
 
 </table>
 
 </form>
-=======
-<p id="discription">Let us know how we can improve freeCodeCamp</p>
-<form id="survey-form"></form>
->>>>>>> master
