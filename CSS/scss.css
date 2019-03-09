@@ -1,19 +1,15 @@
 * {
-
   margin: auto;
+}
 
-}
-#survey-form {
-  align-items: center;
-  align-self: center;
-  align-content: center;
-}
 #title {
   text-align: center;
 }
+
 #description {
     text-align: center;
 }
+
 .button {
   text-align: center;
 }
