@@ -6,8 +6,16 @@
 #survey-form {
   align-items: center;
 }
-.table {
+#title {
+  text-align: center;
 }
+#description {
+    text-align: center;
+}
+.button {
+  text-align: center;
+}
+
 .textarea {
   width: 200px;
   height: 100px;
