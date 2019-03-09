@@ -6,7 +6,7 @@
 
 <p id="description">Let us know how we can improve freeCodeCamp</p>
 <form id="survey-form">
-<table>
+<table class="table">
   <tr>
   <!-- name -->
     <td><label id="name-label">*Name: </label></td>
@@ -31,15 +31,16 @@
       <option>Full time job</option>
       <option>Other</option>
     </select></td>
-
   </tr>
-
   <tr>
     <!-- recommend to friend -->
     <td>How likely is that you would recommend freeCodeCamp to a friend?</td>
-    <td><input name="radio-buttons" type="radio">Definitely <br>
-        <input name="radio-buttons"type="radio">Maybe Not <br>
-        <input name="radio-buttons" type="radio">Not sure
+    <td>
+      <ul name="radio_grouping">
+        <li><input type="radio" name="radio_buttons" value="definitely">Definitely <br></li>
+        <li><input type="radio" name="radio_buttons" value="maybe_not">Maybe Not <br></li>
+        <li><input type="radio" name="radio_buttons" value="not_sure">Not sure</li>
+      </ul>
     </td>
   </tr>
 
@@ -59,9 +60,11 @@
   </tr>
   <tr>
     <!-- Any comments or suggestions ? -->
-
+    <td>Any comments or suggestions?</td>
+    <td>
+      <textarea class="textarea" rows="50" cols="50">Enter your comment here</textarea>
+    </td>
   </tr>
-
 </table>
-
+  <input id="submit" type="submit"/>
 </form>

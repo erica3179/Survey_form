@@ -1,2 +1,18 @@
 * {
+  text-align: center;
+}
+#survey-form {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.table {
+}
+.textarea {
+  width: 200px;
+  height: 100px;
+}
+
+ul {
+  list-style: none;
 }
